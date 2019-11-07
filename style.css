@@ -48,9 +48,11 @@ ul {
 li {
     margin-bottom: 5px;
 }
-.menu>li:hover{
+
+.menu>li:hover {
     color: red;
 }
+
 .aside-under {
     margin-top: 10px;
     margin-left: 5px;
@@ -60,7 +62,7 @@ i {
     margin: 0 5px 0 10px;
 }
 
-.aside-under,a, h3 {
+.aside-under, a, h3 {
     color: white;
     margin-left: 3px;
     text-decoration: none;
@@ -96,11 +98,12 @@ hr {
 .main-content {
     display: flex;
     flex-direction: column;
-    background: rgb(126,134,5);
-    background: linear-gradient(90deg, rgba(126,134,5,1) 2%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+    background: rgb(126, 134, 5);
+    background: linear-gradient(90deg, rgba(126, 134, 5, 1) 2%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 1) 100%);
     padding: 20px;
     flex-wrap: wrap;
 }
+
 .top-right {
     text-transform: uppercase;
     color: white;
@@ -148,12 +151,14 @@ hr {
     flex-wrap: wrap;
     max-width: 100%;
 }
-.Recently{
+
+.Recently {
     margin-top: 15px;
-position: absolute;
-float: left;
+    position: absolute;
+    float: left;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: row;
     background-color: grey;
