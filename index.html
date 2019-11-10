@@ -6,6 +6,7 @@
 
     <meta charset="utf-8">
     <title>Spotify</title>
+    <meta name="viewport" content="initial-scale=1.0; width=device-width">
     <script src="https://kit.fontawesome.com/e42df28727.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -58,35 +59,35 @@
             <h2>Creato per te</h2>
             <div class="main-bottom">
                 <div class="blocco">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/DraphtMay2011.jpg" width="150" height="100" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/DraphtMay2011.jpg" alt="">
                     <p>Drapht</p>
                 </div>
                 <div class="blocco">
-                    <img src="http://www.indieforbunnies.com/wp-content/uploads/2018/01/Jade-846x634.jpg" width="150" height="100" alt="">
+                    <img src="http://www.indieforbunnies.com/wp-content/uploads/2018/01/Jade-846x634.jpg" alt="">
                     <p>Jade Bird</p>
                 </div>
                 <div class="blocco">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Ambjaay_-_Uno.png/220px-Ambjaay_-_Uno.png" width="150" height="100" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Ambjaay_-_Uno.png/220px-Ambjaay_-_Uno.png" alt="">
                     <p>Uno</p>
                 </div>
                 <div class="blocco">
-                    <img src="http://www.orionliveclub.com/wp-content/uploads/2019/03/The-Struts-2018-2-by-Anna-Lee-1024x683.jpg" width="150" height="100" alt="">
+                    <img src="http://www.orionliveclub.com/wp-content/uploads/2019/03/The-Struts-2018-2-by-Anna-Lee-1024x683.jpg" alt="">
                     <p>The Struts</p>
                 </div>
                 <div class="blocco">
-                    <img src="https://static.ffx.io/images/$zoom_0.152%2C$multiply_1%2C$ratio_1.5%2C$width_756%2C$x_111%2C$y_19/t_crop_custom/w_335/q_86%2Cf_auto/da2a437eedfeb54bb05ebcd4b74b337f730241f7" width="150" height="100" alt="">
+                    <img src="https://static.ffx.io/images/$zoom_0.152%2C$multiply_1%2C$ratio_1.5%2C$width_756%2C$x_111%2C$y_19/t_crop_custom/w_335/q_86%2Cf_auto/da2a437eedfeb54bb05ebcd4b74b337f730241f7" alt="">
                     <p>hilltop hoods</p>
                 </div>
                 <div class="blocco">
-                    <img src="https://static1.fjcdn.com/comments/Best+lifting+song+reporting+in+_1d10e81ae50a5821db66f49daf6f2479.jpg" width="150" height="100" alt="">
+                    <img src="https://i.ytimg.com/vi/SbRzSFo5Aw4/maxresdefault.jpg" alt="">
                     <p>Metal lifting</p>
                 </div>
                 <div class="blocco">
-                    <img src="https://i.ytimg.com/vi/2ljCShZrno4/maxresdefault.jpg" width="150" height="100" alt="">
+                    <img src="https://i.ytimg.com/vi/2ljCShZrno4/maxresdefault.jpg" alt="">
                     <p>TigerBelly</p>
                     <div class="Recently clearfix">
                         <h2>Recently played</h2>
-                        <div class="main-bottom">
+                        <div class="main-bottom G">
                             <div class="blocco">
                                 <img src="http://southimagesservice.mtvnimages.com/uri/mgid:file:http:shared:news.mtv.it/wp-content/uploads/2019/06/gionnyscandal-in-arrivo-il-singolo-volevo-te-anticipo-del-nuovo-album-black-mood.jpg?width=600&height=337&crop=true&v=6"
                                     alt="">
@@ -128,10 +129,37 @@
     </div>
     </div>
     </div>
-    <div class="footer">
-        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-    </div>
+    <footer>
+        <div class="playing">
+            <a href="#"><img src="https://i.ytimg.com/vi/PKOR9v3rsEM/maxresdefault.jpg" alt="cover"> </a>
+            <div class="title">
+                <h4>gionnyscandal</h4>
+                <p>Ti porterò a vedere il mare</p>
+            </div>
+            <a href="#"><i class="far fa-heart"></i></a>
+        </div>
+        <div class="playingBar">
+            <div class="controls">
+                <a href="#" class="nophone"><i class="fas fa-random"></i></a>
+                <a href="#"><i class="fas fa-step-backward"></i></a>
+                <a href="#"><i class="far fa-pause-circle"></i></a>
+                <a href="#"><i class="fas fa-step-forward"></i></a>
+                <a href="#" class="nophone"><i class="fas fa-redo-alt"></i></a>
+            </div>
+            <div class="progress">
+                <p class="nophone">1:30</p>
+                <input type="range" min="1" max="100" value="50" class="slider">
+                <p class="nophone">3:07</p>
+            </div>
+        </div>
+        <div class="volume">
+            <a href=""><i class="fas fa-list-ul"></i></a>
+            <a href=""><i class="fas fa-desktop"></i></a>
+            <a href=""><i class="fas fa-volume-up"></i></a>
+            <input type="range" min="1" max="50" value="40" class="slider">
+        </div>
+    </footer>
+
 </body>
 
 </html>
